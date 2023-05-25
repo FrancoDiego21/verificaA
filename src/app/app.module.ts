@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { PrimiComponent } from './primi/primi.component';
 import { SecondiComponent } from './secondi/secondi.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimiComponent,
-    SecondiComponent
+    SecondiComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
