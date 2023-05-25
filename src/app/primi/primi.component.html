@@ -1,0 +1,19 @@
+<br>
+<h4>Primi</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th class="text-end">Prezzo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of primi" >
+            <td>{{ p.id }}</td>
+            <td>{{ p.nome }}</td>
+            <td class="text-end"><i>€ {{ p.prezzo }}</i></td>
+        </tr>
+    </tbody>
+</table>
